@@ -17,26 +17,21 @@ namespace SmartAquarium
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Text = "ER-chart";
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\yaya1\source\repos\SmartAquarium\Arduino\ER.png");
+            pictureBox1.Image = System.Drawing.Image.FromFile(@"Arduino\ER.png");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             label1.Text = "Smart Aquarium Circuit";
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\yaya1\source\repos\SmartAquarium\Arduino\Circuit.png");
+            pictureBox1.Image = System.Drawing.Image.FromFile(@"Arduino\Circuit.png");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Text = "Components List";
-            pictureBox1.Image = System.Drawing.Image.FromFile(@"C:\Users\yaya1\source\repos\SmartAquarium\Arduino\Components.png");
+            pictureBox1.Image = System.Drawing.Image.FromFile(@"Arduino\Components.png");
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            label1.Text = "Database";
-            pictureBox1.Image = null;
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
