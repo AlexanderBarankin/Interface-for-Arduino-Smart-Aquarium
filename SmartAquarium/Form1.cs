@@ -37,6 +37,8 @@ namespace SmartAquarium
         {
             label1.Text = "Open report";
             pictureBox1.Image = null;
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo { FileName = @"Arduino\БСТ2001 Баранкин - Отчёт по учебной (технологической) практике.docx", UseShellExecute = true }); ;
+
         }
     }
 }
